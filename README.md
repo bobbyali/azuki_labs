@@ -1,14 +1,9 @@
-This is the code base for the Azuki Labs site. Azuki Labs is a non-profit open-source group run by parents of school-age children. We build free, interactive apps to help our kids explore core concepts in math, science, reading, and coding, and we want to make these apps available for others to use. We believe small seeds of curiosity can grow into big ideas!
-
-All the apps made by Azuki Labs are available under an MIT license. You're welcome to play with and change them to suit your needs. 
-
-
 # Azuki Labs
 
 **Azuki Labs** is a non‑profit, open‑source collective run by parents of school‑age children.  
 We build **free, interactive apps** that help kids explore core concepts in **math, science, reading, and coding** through play and creativity.
 
-We believe that small seeds of curiosity can grow into big ideas — and that learning should be joyful and accessible for everyone.
+We believe that small seeds of curiosity can grow into big ideas — and that learning should be joyful and accessible for everyone. Azuki Labs started because we were building these apps primarily for our own kids, and we wanted to make these available to other parents/teachers/children in case they found them helpful.)
 
 ---
 
@@ -24,8 +19,8 @@ You can visit our website at:
 
 ## 📜 License
 
-All apps and code in this repository are released under the **MIT License**, an [OSI‑approved open source license](https://opensource.org/licenses/MIT).  
-See [LICENSE](./LICENSE) for details.
+All apps and code made by Azuki Labs are released under the **MIT License**, an [OSI‑approved open source license](https://opensource.org/licenses/MIT).  
+See [LICENSE](./LICENSE) for details. You're welcome to play with and change them to suit your needs. 
 
 ---
 
