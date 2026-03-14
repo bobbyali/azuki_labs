@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Azuki Labs - Interactive Learning Apps</title>
+<style>
+  /* === Global Styles === */
+  body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    background: rgba(254, 246, 240, 1);
+    color: #2B2B2B;
+  }
+  a {
+    text-decoration: none;
+    color: #3DB7A4;
+  }
+  h1, h2, h3 {
+    font-family: 'Fredoka', sans-serif;
+    margin: 0.5em 0;
+  }
+  .container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+  }
+
+  /* === Header === */
+  header {
+    background: #B5423E;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  header img {
+    max-height: 80px;
+    vertical-align: middle;
+  }
+  header h1 {
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 2rem;
+    vertical-align: middle;
+  }
+
+  /* === Hero Section === */
+  .hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(254, 246, 240, 1);
+    padding: 40px 20px;
+  }
+  .hero-text {
+    flex: 1 1 400px;
+  }
+  .hero-text h2 {
+    font-size: 2rem;
+    color: #B5423E;
+  }
+  .hero-text p {
+    margin: 10px 0 20px;
+    font-size: 1.1rem;
+  }
+  .hero-text img {
+    max-width: 80px;
+    vertical-align: middle;
+  }
+  .hero-images {
+    flex: 1 1 300px;
+    text-align: center;
+  }
+  .hero-images img {
+    max-width: 200px;
+    margin: 10px;
+  }
+
+  /* === About Section === */
+  section.about {
+    background: rgba(254, 246, 240, 1);
+    padding: 40px 20px;
+    text-align: center;
+  }
+  section.about img {
+    max-width: 150px;
+    margin: 10px;
+  }
+
+  /* === Apps Table === */
+  section.apps {
+    padding: 40px 20px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  th, td {
+    padding: 12px 15px;
+    text-align: left;
+  }
+  th {
+    background: #B5423E;
+    color: white;
+  }
+  tr:nth-child(even) {
+    background: #FFF7ED;
+  }
+  tr:hover {
+    background: #FFC85733;
+  }
+  a.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    background: #3DB7A4;
+    color: white;
+    border-radius: 20px;
+    font-weight: 600;
+  }
+
+  a.btn-git {
+    display: inline-block;
+    padding: 6px 12px;
+    background: #B5423E;
+    color: white;
+    border-radius: 20px;
+    font-weight: 600;
+  }
+
+  /* === Footer === */
+  footer {
+    background: #B5423E;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+  }
+
+  @media (max-width: 768px){
+    .hero {
+      flex-direction: column;
+      text-align: center;
+    }
+    .hero-images img {
+      max-width: 150px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+  <img src="assets/images/azuki_logo.png" alt="Azuki Labs Logo">
+  <h1>Azuki Labs</h1>
+</header>
+
+<!-- Hero Section -->
+<section class="hero container">
+  <div class="hero-text">
+    <h2>About Azuki Labs</h2>
+    <p>Azuki Labs builds free, interactive apps to help kids explore core concepts in math, science, reading, and coding. We believe small seeds of curiosity can grow into big ideas! Say hi to our mascot Zuki!</p>
+  </div>
+  <div class="hero-images">
+    <img src="assets/images/azuki_zuki.png" alt="Zuki Mascot">
+  </div>
+</section>
+
+<!-- About Section
+<section class="about container">
+  <h2>About Azuki Labs</h2>
+  <p>We believe small seeds of curiosity can grow into big ideas! Our mascot Zuki helps guide kids through interactive apps, making learning playful and engaging.</p>
+</section> -->
+
+<!-- Apps Section -->
+<section class="apps container">
+  <h2>Our Apps</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>App</th>
+        <th>Subject</th>
+        <th>Age Group</th>
+        <th>Description</th>
+        <th>App Link</th>
+        <th>GitHub Link</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Series vs Parallel Circuits</td>
+        <td>Physics</td>
+        <td>Y8</td>
+        <td>An interactive electrical circuit simulator for understanding series vs parallel circuits.</td>
+        <td><a href="https://gcse-electrical-circuit.netlify.app/" class="btn" target="_blank">Play</a></td>
+        <td><a href="https://github.com/bobbyali/gcse_circuit_sim" class="btn-git" target="_blank">GitHub</a></td>
+      </tr>
+      <tr>
+        <td>Algebra Seesaw</td>
+        <td>Maths</td>
+        <td>Y5 to Y7</td>
+        <td>A game where you solve algebra problems by keeping the equation "seesaw" balanced at every step.</td>
+        <td><a href="https://algebraseesaw.netlify.app/" class="btn" target="_blank">Play</a></td>
+        <td><a href="https://github.com/bobbyali/algebra_seesaw" class="btn-git" target="_blank">GitHub</a></td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>© 2026 Azuki Labs – Building free interactive learning tools for kids</p>
+</footer>
+
+</body>
+</html>
